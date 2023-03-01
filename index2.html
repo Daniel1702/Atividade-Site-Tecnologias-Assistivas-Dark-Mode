@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Universo Tecnológico</title>
+</head>
+<body>
+    <header>
+        <h1>Saiba Mais</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html"> Inicio</a></li>
+            <li><a href="index2.html"> Saiba mais</a></li>
+            <li><a href="index3.html"> Importância</a></li>
+        </ul>
+
+    </nav>
+
+    <main> 
+        <img class="img botao-fixado" src="https://cdn-icons-png.flaticon.com/512/1687/1687737.png" onclick="darkMode()"/>
+        <article>
+            <section>
+                    <h2>Visualizando a Importância da Tecnologia Assistiva: Imagens que Inspiram</h2>
+                    <p>A tecnologia assistiva é um tema de grande importância para a inclusão e a qualidade de vida de pessoas com deficiência ou com mobilidade reduzida. Por meio de equipamentos, dispositivos e sistemas que buscam reduzir as barreiras enfrentadas por essas pessoas, a tecnologia assistiva pode promover a autonomia, a independência e a participação social dessas pessoas. As imagens relacionadas ao tema da tecnologia assistiva podem ilustrar de forma concreta e inspiradora como essas tecnologias podem transformar a vida das pessoas com deficiência ou com mobilidade reduzida. Essas imagens podem mostrar desde dispositivos mais simples, como lupas e bengalas, até equipamentos mais complexos, como próteses robóticas e sistemas de comunicação alternativa e aumentativa. Além disso, as imagens podem mostrar como a tecnologia assistiva pode ser aplicada em diferentes áreas da vida, como trabalho, educação, lazer e vida cotidiana. </p>
+        
+                    <img src="img/menu.gif" width="300" height="200"/>
+                    <img src="img/pasted image 0.png" width="300" height="200"/>
+                    <img src="img/braille-e-tecnologia-assistiva.jpg" width="300" height="200"/>
+                    <img src="img/tecassistiva.jpg" width="300" height="200"/>
+                    <img src="img/Tecnologia-Assistiva-scaled-1.jpg" width="300" height="200"/>
+
+              
+            </section>
+        </article>
+        <aside>
+            <h1>Veja mais</h1>
+          <ul>
+            <li><a href="https://www.youtube.com/watch?v=1PNhJeFJMzs" target="_blank">Video-Aula Tecnologia Assistiva</a></li>
+            <li><a href="https://www.instagram.com/danielandrade248/" target="_blank">Instagram</a></li>
+            <li><a href="https://www.youtube.com/watch?v=dyvZqfp4pr8" target="_blank">Acessibilidade digital</a></li>
+            <li><a href="https://proincluir.org/" target="_blank">Projeto Incluir</a></li>
+
+          </ul>
+    </aside>
+</main>
+
+<footer>
+    <p id="ftr">&copy; 2023 Feito por: Daniel de Andrade, Todos os Direitos reservados.</p>
+</footer>
+<div class="botao-fixado">
+    
+
+    <script>
+        function darkMode() {
+            let minhaImagem = document.querySelector('img');
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+            let meuSrc = minhaImagem.getAttribute('src');
+            if (meuSrc === 'https://cdn-icons-png.flaticon.com/512/1687/1687737.png') {
+                minhaImagem.setAttribute('src','https://cdn-icons-png.flaticon.com/512/1687/1687686.png');
+            } else {
+                minhaImagem.setAttribute('src','https://cdn-icons-png.flaticon.com/512/1687/1687737.png');
+            }
+        }
+    </script>
+    <div>
+</body>
+</html>

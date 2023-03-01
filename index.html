@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Universo Tecnológico</title>
+</head>
+<body>
+    <header>
+        <h1>Tecnologia Assistiva</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html"> Inicio</a></li>
+            <li><a href="index2.html"> Saiba mais</a></li>
+            <li><a href="index3.html"> Importância</a></li>
+        </ul>
+
+    </nav>
+
+    <main> 
+        <article>
+            <section>
+
+                <h2> Tecnologia Assistiva</h2>
+                <p>Tecnologia Assistiva é um conjunto de recursos, serviços, estratégias, práticas e dispositivos que visam melhorar a qualidade de vida e promover a inclusão social de pessoas com deficiência ou com mobilidade reduzida. Essas tecnologias podem ser desde equipamentos simples, como lupas e bengalas, até dispositivos mais avançados, como próteses robóticas e sistemas de comunicação alternativa e aumentativa. A tecnologia assistiva tem como objetivo ajudar as pessoas a superar as barreiras que limitam sua participação em diversas atividades, como trabalho, educação, lazer e vida cotidiana. </p>
+    
+                <h3>Exemplos de Tecnologia Assistivas</h3>
+    
+                <p>Existem diversas tecnologias assistivas disponíveis atualmente no mercado, tais como: cadeiras de rodas motorizadas, dispositivos de comunicação alternativa e aumentativa, próteses e órteses, softwares de reconhecimento de voz e de texto, lentes de aumento, entre outros. É importante destacar que a escolha da tecnologia assistiva ideal deve levar em consideração as necessidades individuais de cada pessoa e deve ser feita em conjunto com profissionais especializados.</p>
+           
+                <h3>Impactos da tecnologia assistiva</h3>
+                <p>A tecnologia assistiva pode ter impactos significativos na vida das pessoas com deficiência ou com mobilidade reduzida, pois pode aumentar sua autonomia e independência, melhorar sua qualidade de vida e ampliar suas oportunidades de participação na sociedade. Além disso, a tecnologia assistiva pode contribuir para a redução do estigma associado à deficiência, promovendo a inclusão social e a valorização da diversidade.</p>
+
+            </section>
+        </article>
+        <aside>
+                <h1>Veja mais</h1>
+              <ul>
+                <li><a href="https://www.youtube.com/watch?v=1PNhJeFJMzs" target="_blank">Video-Aula Tecnologia Assistiva</a></li>
+                <li><a href="https://www.instagram.com/danielandrade248/" target="_blank">Instagram</a></li>
+                <li><a href="https://www.youtube.com/watch?v=dyvZqfp4pr8" target="_blank">Acessibilidade digital</a></li>
+                <li><a href="https://proincluir.org/" target="_blank">Projeto Incluir</a></li>
+
+              </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p id="ftr">&copy; 2023 Feito por: Daniel de Andrade, Todos os Direitos reservados.</p>
+    </footer>
+    <div class="botao-fixado">
+        <img class="img" src="https://cdn-icons-png.flaticon.com/512/1687/1687737.png" onclick="darkMode()"/>
+    
+        <script>
+            function darkMode() {
+                let minhaImagem = document.querySelector('img');
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+                let meuSrc = minhaImagem.getAttribute('src');
+                if (meuSrc === 'https://cdn-icons-png.flaticon.com/512/1687/1687737.png') {
+                    minhaImagem.setAttribute('src','https://cdn-icons-png.flaticon.com/512/1687/1687686.png');
+                } else {
+                    minhaImagem.setAttribute('src','https://cdn-icons-png.flaticon.com/512/1687/1687737.png');
+                }
+            }
+        </script>
+     </div>
+</body>
+</html>
